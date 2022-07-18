@@ -1,18 +1,26 @@
+.sticky{
+    background: black;
+    padding: 100px;
+
+}
+
 .container{
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     position: relative;
     overflow:hidden;
     overflow-y:scroll;
-    background-color: orange;
+    background-color: green;
+    margin: auto;
 
 }
 
 .container h1{
     position: sticky;
     top: 0;
+    text-align: center;
 }
 
 h1{
-    background-color: azure;
+    background-color: blue;
 }
